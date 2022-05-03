@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/login2"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00000000"
+        android:orientation="vertical">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            tools:ignore = "UselessParent">
+            
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/logo_v2"
+                android:layout_marginStart="20dp"
+                android:contentDescription="@string/app_name"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:text="Login"
+                android:gravity="end"
+                android:textSize="24sp"
+                android:textColor="@color/darker_grey"
+                android:textStyle="bold"/>
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter your phone number : "
+                android:textColor="@color/black"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="40dp" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp">
+
+<!--                <com.hbb20.CountryCodePicker-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="2dp"-->
+<!--                    app:ccp_defaultPhoneCode="91"-->
+<!--                    app:ccp_showNameCode="false"-->
+<!--                    android:layout_marginStart="20dp"-->
+<!--                    app:ccp_contentColor="@color/white"-->
+<!--                    android:id="@+id/ccp"/>-->
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText_carrierNumber"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_marginTop="2dp"
+                    android:background="#00000000"
+                    android:gravity="center_vertical|center"
+                    android:foregroundGravity="center"
+                    android:hint="12345 67890"
+                    android:inputType="phone"
+                    android:textSize="20sp"
+                    android:textColor="@color/darker_grey"
+                    android:textColorHint="#787878"
+                    android:textCursorDrawable="@drawable/cursor_white"
+                    android:importantForAutofill="no"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginStart="40dp"
+                android:background="@color/white"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/next"
+                android:text="Verify"
+                android:paddingStart="60dp"
+                android:paddingEnd="60dp"
+                android:textSize="16sp"
+                android:background="@drawable/ripple_back"
+                android:textColor="@color/white"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"/>
+
+            <LinearLayout
+                android:gravity="bottom|center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginBottom="40dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="By AQ"
+                    android:textColor="@color/darker_grey"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" powered by PEXELS :)"
+                    android:textColor="#2196f3"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:layout_marginStart="2dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

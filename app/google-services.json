@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "324073823764",
+    "project_id": "midnight-walls",
+    "storage_bucket": "midnight-walls.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324073823764:android:7deebac20fb537aeaf9101",
+        "android_client_info": {
+          "package_name": "com.lamaq.midnight_walls"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324073823764-cjfme093m2euibcmg340s7q605i4seq2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMSSOvqQ9yZz0wAwt1dsnL7r5apJPj1EA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "324073823764-cjfme093m2euibcmg340s7q605i4seq2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

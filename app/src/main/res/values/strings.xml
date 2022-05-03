@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Midnight Walls</string>
+    <string name="api_key">563492ad6f9170000100000144dcbee8cf26471983b04c011eed09f2</string>
+    <string name="title_activity_fullscreen_wallpaper">FullscreenWallpaperActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_full_screen_wallpaper">FullScreenWallpaper</string>
+</resources>
